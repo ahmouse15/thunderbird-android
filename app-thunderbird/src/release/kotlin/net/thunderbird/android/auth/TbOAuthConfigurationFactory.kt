@@ -65,7 +65,7 @@ class TbOAuthConfigurationFactory : OAuthConfigurationFactory {
             "smtp.office365.com",
             "smtp-mail.outlook.com",
         ) to OAuthConfiguration(
-            clientId = "9e5f94bc-e8a4-4e73-b8be-63364c29d753" //original: "e6f8716e-299d-4ed9-bbf3-453f192f44e5",
+            clientId = "9e5f94bc-e8a4-4e73-b8be-63364c29d753", //original: "e6f8716e-299d-4ed9-bbf3-453f192f44e5",
             scopes = listOf(
                 "openid",
                 "email",
