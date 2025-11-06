@@ -103,8 +103,8 @@ android {
         }
 
         release {
-            signingConfig = signingConfigs.getByType(SigningType.TB_RELEASE)
 
+            signingConfig = signingConfigs.getByName("debug")
             isMinifyEnabled = true
             isShrinkResources = true
             isDebuggable = false
